@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="question" wx:for="{{questions}}" wx:key="id">
+    <view>{{item.content}}</view>
+    <radio-group bindchange="onAnswer">
+      <label wx:for="{{item.options}}" wx:key="index">
+        <radio value="{{item}}">{{item}}</radio>
+      </label>
+    </radio-group>
+  </view>
+  <button bindtap="submitAnswers">提交答案</button>
+</view>

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/battle/battle",
+    "pages/test/test",
+    "pages/report/report"
+  ],
+  "window": {
+    "navigationBarTitleText": "智域星图"
+  },
+  "style": "v2"
+}

@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="header">能力测试</view>
+  <button bindtap="startTest">开始测试</button>
+</view>

@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="header">欢迎来到智域星图</view>
+  <button bindtap="goToLogin">微信登录</button>
+  <button bindtap="goToBattle">单人答题对战</button>
+  <button bindtap="goToTest">能力测试</button>
+</view>

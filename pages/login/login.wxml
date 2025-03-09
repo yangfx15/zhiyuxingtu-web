@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="header">微信登录</view>
+  <button open-type="getUserInfo" bindgetuserinfo="onLogin">授权登录</button>
+</view>
