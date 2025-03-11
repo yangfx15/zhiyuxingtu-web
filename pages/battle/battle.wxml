@@ -1,11 +1,13 @@
 <view class="container">
-  <view class="question" wx:for="{{questions}}" wx:key="id">
-    <view>{{item.content}}</view>
-    <radio-group bindchange="onAnswer">
-      <label wx:for="{{item.options}}" wx:key="index">
-        <radio value="{{item}}">{{item}}</radio>
+  <view wx:for="{{questions}}" wx:key="id" class="question-card">
+    <view class="question-title">{{index + 1}}. {{item.content}}</view>
+    <radio-group bindchange="onAnswer" data-id="{{item.id}}">
+      <label wx:for="{{item.options}}" wx:key="*this" class="option-item">
+        <radio value="{{item}}" checked="{{answers[item.id] === item}}"/>
+        <text class="option-text">{{item}}</text>
       </label>
     </radio-group>
   </view>
-  <button bindtap="submitAnswers">提交答案</button>
+  
+  <button class="submit-btn" bindtap="submitTest">提交答案</button>
 </view>

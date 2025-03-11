@@ -1,5 +1,6 @@
 <view class="container">
   <view class="header">测试报告</view>
-  <view>你的得分：{{score}}%</view>
-  <view>段位：{{rank}}</view>
+  <view class="score">你的得分：{{score}}%</view>
+  <view class="rank">段位：{{rank}}</view>
+  <button class="retry-btn" bindtap="retryTest">重新测试</button>
 </view>

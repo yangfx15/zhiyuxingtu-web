@@ -1,6 +1,24 @@
-.container {
-  padding: 20px;
+.question-card {
+  margin: 20rpx;
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.1);
 }
-.question {
-  margin-bottom: 20px;
+
+.option-item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.option-text {
+  margin-left: 20rpx;
+}
+
+.submit-btn {
+  margin: 40rpx;
+  background: #07c160;
+  color: white;
 }

@@ -7,7 +7,9 @@
     "pages/report/report"
   ],
   "window": {
-    "navigationBarTitleText": "智域星图"
+    "navigationBarTitleText": "智域星图",
+    "usingComponents": {},
+    "lazyCodeLoading": "requiredComponents"
   },
   "style": "v2"
 }
